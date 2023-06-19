@@ -45,7 +45,57 @@ img {
     max-width: 100%;
 }
   
-  /* Provide basic styling */
+/*  --------------- Tables -----------------  */
+
+table {
+    width: 100%;
+    border: 5px solid #2b2e30;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
+}
+
+table caption {
+    font-weight: bold;
+    font-weight: 300;
+    font-size: x-large;
+    margin: 10px;
+}
+
+table tr {
+    font-size: 1.6rem;
+    transition: 0.4s;
+}
+
+table th {
+    color: #2b2e30;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    border: 2px solid #2b2e30;
+}
+
+table td {
+    border: 2px solid #2b2e30;
+    padding: 5px;
+    text-align: right;
+    width: 33%;
+}
+
+table td span {
+    color: #bf3d37;
+}
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+/*  --------------- Basic Styles -----------------  */
+
 body {
     font-family: 'Bebas Neue', sans-serif;
     background-color: #f8f8f8;
